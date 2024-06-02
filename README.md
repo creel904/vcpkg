@@ -1,3 +1,14 @@
+# ZeroBraneStudio submodule
+Vcpkg is used to build Lua, Luarocks, 
+and other dependencies used by ZeroBraneStudio
+
+In this way, we can define triplets ie x64-windows
+and generate ZeroBraneStudio for any platform supported by vcpkg.
+
+This vcpkg is forked from https://github.com/microsoft/vcpkg
+master branch at commit 47364fbc300756f64f7876b549d9422d5f3ec0d3
+Which is based on microsoft/vcpkg Release 2024.05.24 (50 commits ahead)
+
 # Vcpkg: Overview
 
 [中文总览](README_zh_CN.md)
